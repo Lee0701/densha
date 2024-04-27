@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html lang="ja">
-	<head>
-		<title>首都圏電車図</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="style.css" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	</head>
-	<body>
-		<object id="bg" type="image/svg+xml" data="shutoken.svg">
-			<img src="shutoken.svg">
-		</object>
-	</body>
-</html>
+---
+layout: index
+title: 首都圏電車図
+---
+{% include svg.html filename="assets/shutoken.svg" %}
